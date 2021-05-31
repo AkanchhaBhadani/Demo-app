@@ -1,0 +1,222 @@
+body { }
+.App{
+    display: flex;
+}
+
+.Navbar{
+    background-color: beige;
+    flex-grow:0.2;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content{
+    flex-grow: 2;
+}
+
+.NavHeader{
+    text-align: left;
+    border-bottom: 0.5px ridge grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.Option{
+    padding-left: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.8rem;
+    color: darkslategray;
+    padding-top: 0.025rem;
+    padding-bottom: 0.025rem;
+}
+
+.Option:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.Section{
+    padding-left: 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    color: lightslategray;
+}
+
+.HeaderMain{
+    background-color : aliceblue;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display : flex;
+    
+}
+.SearchBar{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.8rem;
+    color: lightslategrey;
+    font-weight: lighter;
+    padding-left: 1.5rem;
+    
+    flex-grow: 0.7
+}
+
+.Search{
+    border: none;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+
+.Search:focus{
+    outline: none;
+}
+
+.HeaderIcons{
+    flex-grow: 0.15
+}
+
+.Profile{
+    flex-grow: 0.15
+    
+}
+
+.MainContent{
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.Box1{
+    background-color: lavender;
+    background-clip: content-box;
+    height: 22rem;
+    display: flex;
+}
+
+.Subdiv1{
+    background-color: lavender;
+    background-clip: content-box;
+    flex-grow: 1;
+    padding: 1rem;
+    padding-right: 0.5rem;
+    padding-left: 2rem;
+    display:flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.TotalIncome{
+    background-color: aliceblue;
+    background-clip: content-box;
+    height: 8rem;
+    box-shadow: 0.1rem 0.1rem 15px gray;
+    margin-bottom: 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.NewUsers{
+    background-color: aliceblue;
+    background-clip: content-box;
+    height: 12rem;
+    box-shadow: 0.1rem 0.1rem 15px gray;
+    margin-top: 0.5rem;
+}
+
+.Balance{
+    background-color: aliceblue;
+    background-clip: content-box;
+    flex-grow: 1;
+    margin: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+    box-shadow: 0.1rem 0.1rem 15px gray;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+.Box2{
+    background-color: aliceblue;
+    background-clip: content-box;
+    height: 22rem;
+    margin: 2rem;
+    box-shadow: 0.1rem 0.1rem 15px gray;
+}
+
+.Text{
+    padding: 0.5rem;
+    padding-top: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.RecentTransactions{
+    font-weight: bold;
+}
+
+.Info{
+    background-color: lightseagreen;
+    height: 1rem;
+    font-size: 0.6rem;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal; 
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+}
+
+.BalanceDiv2{
+    display: flex;
+    height: 5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 0.6rem;
+    color: grey;
+    border-top: solid 1px lightgray;
+    padding-top: 0.5rem;
+    
+}
+
+.Earnings{
+    border: solid 1px lightgrey;
+    flex-grow: 1;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+    padding-left: 0.2rem;
+    box-shadow: 0.025rem 0.025rem 5px gray;
+    
+}
+
+.SalesValue{
+    border: solid 1px lightgrey;
+    flex-grow: 1;
+    margin-left:0.5rem;
+    margin-right: 1rem;
+    padding-left: 0.2rem;
+    box-shadow: 0.025rem 0.025rem 5px gray;
+}
+
+.styleNumber{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    height: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 1rem;
+}
+
+
